@@ -15,7 +15,7 @@ try:
         text=True,
         check=True
     )
-    filename = "1.png"
+    filename = "tpm.png"
     full_path = os.path.join(output_folder, filename)
     time.sleep(3)
     screenshot = pyautogui.screenshot()
